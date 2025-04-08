@@ -2,6 +2,7 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    margin-bottom: 5px;
 }
 
 
@@ -10,15 +11,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
   background-color: white;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  flex-direction: column;
   max-width: 350px;
   padding: 10px;
   width: 100%;
@@ -28,7 +25,6 @@ body {
 
 .card-img {
     border-radius: 20px;
-    margin-bottom: 20px;
     margin-top: 15px;
 }
 
@@ -38,37 +34,26 @@ body {
     flex-direction: column;
 }
 
-.type-box {
+.text-box .type-box {
     padding: 5px;
     font-weight: 500;
     font-size: 15px;
     background-color: rgb(255, 234, 0);
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
-.date {
-    margin-bottom: 15px;
-}
 
-.title {
+.text-box .title {
     font-size: 24px;
     font-weight: 800;
-    margin-bottom: 15px;
 }
 
-.text-data {
+.text-box .text-data {
     font-size: 16px;
     font-weight: 100;
     color: hsl(0, 0%, 42%);
-    margin-bottom: 20px;
 }
 
-.profile{
-    display: flex;
-    align-items: start;
-    margin-bottom: 10px;
-}
 
 .profile .pfp {
     height: 50px;
