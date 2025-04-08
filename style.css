@@ -7,7 +7,7 @@
 
 
 body {
-  background-color: yellow;
+  background-color: #e9c541;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +21,8 @@ body {
   width: 100%;
   box-shadow: 5px 5px rgba(0,0,0,0.75);
   border-radius: 20px;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .card-img {
@@ -36,9 +38,9 @@ body {
 
 .text-box .type-box {
     padding: 5px;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 15px;
-    background-color: rgb(255, 234, 0);
+    background-color: #e9c541;
     border-radius: 10px;
 }
 
@@ -55,6 +57,7 @@ body {
 }
 
 
+
 .profile .pfp {
     height: 50px;
     width: 50px;
@@ -63,4 +66,5 @@ body {
 .profile .name {
     padding: 15px;
     font-weight: 800;
+    margin-top: 10px;
 }
