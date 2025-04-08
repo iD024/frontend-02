@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&display=swap");
 
 * {
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
 }
-
 
 body {
   background-color: #e9c541;
@@ -19,52 +18,50 @@ body {
   max-width: 350px;
   padding: 10px;
   width: 100%;
-  box-shadow: 5px 5px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.75);
   border-radius: 20px;
   text-align: center;
   border: 1px solid black;
 }
 
 .card-img {
-    border-radius: 20px;
-    margin-top: 15px;
+  border-radius: 20px;
+  margin-top: 15px;
 }
 
 .text-box {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 
 .text-box .type-box {
-    padding: 5px;
-    font-weight: 800;
-    font-size: 15px;
-    background-color: #e9c541;
-    border-radius: 10px;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 15px;
+  background-color: #e9c541;
+  border-radius: 10px;
 }
 
-
 .text-box .title {
-    font-size: 24px;
-    font-weight: 800;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .text-box .text-data {
-    font-size: 16px;
-    font-weight: 100;
-    color: hsl(0, 0%, 42%);
+  font-size: 16px;
+  font-weight: 100;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: hsl(0, 0%, 42%);
 }
 
-
-
 .profile .pfp {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .profile .name {
-    padding: 15px;
-    font-weight: 800;
-    margin-top: 10px;
+  padding: 15px;
+  font-weight: 800;
 }
